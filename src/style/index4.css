@@ -1,0 +1,65 @@
+element.style {
+    width: 432px;
+    transform-origin: left center;
+    z-index: 2003;
+    position: absolute;
+    top: 189px !important;
+    left: 795px !important;
+}
+span .el-button {
+    display: inline-block;
+    line-height: 1;
+    white-space: nowrap;
+    cursor: pointer;
+    background: #FFF;
+    border: 1px solid #DCDFE6;
+    color: #606266;
+    -webkit-appearance: none;
+    text-align: center;
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+    transition: .1s;
+    font-weight: 500;
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+    width: 143px;
+    margin: 0px 0px 0px 0px;
+}
+.el-popover {
+    position: absolute;
+    background: #FFF;
+    min-width: 150px;
+    border: 1px solid #EBEEF5;
+    padding: 12px;
+    z-index: 2000;
+    color: #606266;
+    line-height: 1.4;
+    text-align: justify;
+    font-size: 14px;
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+    word-break: break-all;
+    margin-top: 200px;
+    margin-left: -742px !important;
+}
+<style scope>
+	.el-pagination.is-background .btn-next.disabled,
+	.el-pagination.is-background .btn-next:disabled,
+	.el-pagination.is-background .btn-prev.disabled,
+	.el-pagination.is-background .btn-prev:disabled,
+	.el-pagination.is-background .el-pager li.disabled {
+		color: #C0C4CC;
+		width: 0px !important;
+	}
+
+	.el-pagination.is-background .btn-next,
+	.el-pagination.is-background .btn-prev,
+	.el-pagination.is-background .el-pager li {
+		margin: 0 5px;
+		background-color: #f4f4f5;
+		color: #606266;
+		min-width: 30px;
+		border-radius: 2px;
+		width: 0px !important;
+	}

@@ -1,0 +1,33 @@
+i>.el-select {
+	display: inline-block;
+	position: relative;
+	margin: -28px 0px 0px 55px;
+}
+
+i .el-date-editor.el-input,
+.el-date-editor.el-input__inner {
+	/* width: 220px; */
+	/* width: 25%; */
+	float: right;
+	margin-top: -47px;
+	margin-right: -299px;
+}
+
+i .el-input--prefix .el-input__inner {
+	padding-left: 30px;
+	width: 208px;
+}
+
+.el-select .el-tag {
+	box-sizing: border-box;
+	border-color: transparent;
+	margin: 41px 0 2px 13px !important;
+	background-color: #f0f2f5;
+}
+
+.is-selected {
+	color: #1989FA;
+}
+.el-button-group>.el-button:not(:last-child) {
+    margin-right: 40px !important;
+}
